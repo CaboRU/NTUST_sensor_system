@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="rosbag" type="play" name="player" output="screen" args="-l --clock NTUST.bag"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d rviz_test.rviz" required="true" />
+</launch>
