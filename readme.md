@@ -6,4 +6,4 @@ conda env create -f environment.yml
 ## command:
 roscore
 
-roslaunch justrun.launch
+ROS_HOME=`pwd` roslaunch justrun.launch
